@@ -225,6 +225,7 @@ a:visited {
   background-position: bottom left;
   height: 790px;
   position: relative;
+  padding-top: 100px;
 }
 
 .feynman__title {
