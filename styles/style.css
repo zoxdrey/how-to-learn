@@ -11,6 +11,7 @@
 
 a {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 a:visited {
@@ -28,11 +29,14 @@ a:visited {
   align-items: center;
 }
 
+.logo {
+  width: 183px;
+}
+
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 183px;
   height: 32px;
   background-image: url("../images/logo_place_header.svg");
   background-size: cover;
@@ -179,6 +183,7 @@ a:visited {
 }
 
 .feynman {
+  background-color:  #f2f2f2;
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -280,4 +285,76 @@ a:visited {
   line-height: 1.2em;
   font-size: 18px;
   font-weight: 500;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  height: 100%;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 40px 0;
+  min-height: 350px;
+  color: #FFFFFF;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  height: 35px;
+  background-image: url("../images/logo_place_footer.svg");
+  background-size: cover;
+  z-index: 2;
+}
+
+.footer__author {
+  margin: 18px 0 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer__column-heading{
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__column-links {
+  margin-bottom: 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  height: 16px;
+  width: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.footer__social-icon_icon-type_facebook {
+  background-image: url("../images/facebook_color_white.svg");
+}
+
+.footer__social-icon_icon-type_vk {
+  background-image: url("../images/vk_color_white.svg");
+}
+
+.footer__social-icon_icon-type_instagram {
+  background-image: url("../images/instagram_color_white.svg");
 }
