@@ -11,7 +11,7 @@
 
 a {
   text-decoration: none;
-  color: #2f80ed;
+  color: inherit;
 }
 
 a:visited {
@@ -168,6 +168,7 @@ a:visited {
   font-size: 24px;
   font-weight: 700;
   z-index: 1;
+  margin: auto;
 }
 
 .table__cell {
@@ -220,17 +221,21 @@ a:visited {
 }
 
 .kaufman {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 90px 0 90px 0;
   overflow: hidden;
   position: relative;
   background-color: #1f1f1f;
 }
 
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  z-index: 0;
+  width: 877px;
+  height: 877px;
+}
+
 .section-title_theme_dark {
+  padding-top: 90px;
   color: #FFFFFF;
   margin-bottom: 20px;
   line-height: 1.15em;
@@ -240,19 +245,6 @@ a:visited {
 
 .section-subtitle_theme_dark {
   color: #FFFFFF;
-}
-
-.table__cell_theme_dark{
-  z-index: 1;
-  color: #FFFFFF;
-}
-
-.kaufman__triangle {
-  position: absolute;
-  right: -210px;
-  z-index: 0;
-  width: 877px;
-  height: 877px;
 }
 
 .section-title_theme_dark {
@@ -267,12 +259,16 @@ a:visited {
   font-weight: 500;
 }
 
+.table_theme_dark {
+  margin-bottom: 90px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
 
 .table__heading_theme_dark {
