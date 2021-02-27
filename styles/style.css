@@ -9,6 +9,14 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -65,13 +73,6 @@
   background-color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 .header__main-illustration {
   width: 765px;
@@ -130,6 +131,10 @@
   margin: auto;
   display: flex;
   justify-content: center;
+  z-index: 1;
+}
+
+.section-title_theme_light {
   margin-bottom: 20px;
   line-height: 1.15em;
   font-size: 60px;
@@ -141,6 +146,10 @@
   margin: auto;
   display: flex;
   justify-content: center;
+  z-index: 1;
+}
+
+.section-subtitle_theme_light {
   line-height: 34px;
   font-size: 24px;
   font-weight: 500;
@@ -154,6 +163,7 @@
   line-height: 1.15em;
   font-size: 24px;
   font-weight: 700;
+  z-index: 1;
 }
 
 .table__cell {
@@ -202,4 +212,72 @@
   position: absolute;
   right: 48px;
   top: 50%;
+}
+
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0 90px 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  line-height: 1.15em;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-subtitle_theme_dark {
+  color: #FFFFFF;
+}
+
+.table__cell_theme_dark{
+  z-index: 1;
+  color: #FFFFFF;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  z-index: 0;
+  width: 877px;
+  height: 877px;
+}
+
+.section-title_theme_dark {
+  line-height: 1.15em;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-subtitle_theme_dark {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15em;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: 500;
 }
