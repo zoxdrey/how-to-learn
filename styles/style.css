@@ -279,13 +279,10 @@ a:visited {
 }
 
 .section-subtitle_theme_dark {
-  color: #FFFFFF;
-}
-
-.section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: 500;
+  color: #FFFFFF;
 }
 
 .table_theme_dark {
