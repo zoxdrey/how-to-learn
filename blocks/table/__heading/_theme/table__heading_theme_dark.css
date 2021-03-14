@@ -1,0 +1,7 @@
+.table__heading_theme_dark {
+    line-height: 1.15em;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    z-index: 1;
+  }
