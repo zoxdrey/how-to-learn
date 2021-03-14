@@ -61,32 +61,13 @@
   background-size: cover;
 }
 
-.table_theme_dark {
-  margin-bottom: 90px;
-}
+
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  z-index: 1;
-}
 
-.table__heading_theme_dark {
-  line-height: 1.15em;
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0 0 20px 0;
-  z-index: 1;
-}
 
-.table__text_theme_dark {
-  line-height: 1.2em;
-  font-size: 18px;
-  font-weight: 400;
-  margin: 0;
-}
+
+
+
 
 
 
