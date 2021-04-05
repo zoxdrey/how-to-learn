@@ -1,6 +1,6 @@
 ### Лендинг "Начать учится"
 
-[live demo](https://zoxdrey.github.io/how-to-learn/)
+[live demo](https://zoxdrey.github.io/how-to-learn/index.html)
 
 Разработан в рамках обучения на курсах Яндекс практикума
 
