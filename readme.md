@@ -1,5 +1,7 @@
 ### Лендинг "Начать учится"
 
+[live demo](https://zoxdrey.github.io/how-to-learn/)
+
 Разработан в рамках обучения на курсах Яндекс практикума
 
 * HTML5/CSS
